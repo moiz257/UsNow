@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+argon2-cffi = "*"
+pydantic-settings = "*"
+pydantic = {extras = ["email"], version = "*"}
+psycopg2-binary = "*"
+alembic = "*"
+cryptography = "*"
+passlib = {extras = ["bcrypt"], version = "*"}
+pyjwt = {extras = ["crypto"], version = "*"}
+fastapi = "*"
+uvicorn = "*"
+sqlalchemy = "*"
+requests = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
